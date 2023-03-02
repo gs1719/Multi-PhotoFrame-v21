@@ -26,80 +26,46 @@
         android:layout_width="match_parent"
         android:layout_height="350dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/artistic_frame_svgrepo_com">
+        android:background="@drawable/artistic_frame_svgrepo_com_1">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/pic0"
-            android:layout_width="210dp"
-            android:layout_height="248dp"
-            android:alpha="1"
+            android:layout_width="220.50dp"
+            android:layout_height="247.50dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
+                android:id="@+id/pic0"
+                android:alpha="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/pic0">
-
             </ImageView>
 
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/pic1"
-            android:layout_width="210dp"
-            android:layout_height="248dp"
-            android:alpha="0"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
             <ImageView
+                android:id="@+id/pic1"
+                android:alpha="0"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/german_img">
-
             </ImageView>
 
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/pic2"
-            android:layout_width="210dp"
-            android:layout_height="248dp"
-            android:alpha="0"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
             <ImageView
+                android:id="@+id/pic2"
+                android:alpha="0"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/chowchow_img">
-
             </ImageView>
 
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/pic3"
-            android:layout_width="210dp"
-            android:layout_height="248dp"
-            android:alpha="0"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
             <ImageView
+                android:id="@+id/pic3"
+                android:alpha="0"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/husky_img">
-
             </ImageView>
 
         </androidx.cardview.widget.CardView>
